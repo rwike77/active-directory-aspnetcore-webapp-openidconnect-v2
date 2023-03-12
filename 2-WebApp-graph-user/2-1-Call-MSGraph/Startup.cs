@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
 using System;
+using Microsoft.IdentityModel.Logging;
 
 namespace WebApp_OpenIDConnect_DotNet_graph
 {
