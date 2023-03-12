@@ -61,6 +61,7 @@ namespace WebApp_OpenIDConnect_DotNet_graph
         {
             if (env.IsDevelopment())
             {
+                IdentityModelEventSource.ShowPII = true;
                 app.UseDeveloperExceptionPage();
             }
             else
