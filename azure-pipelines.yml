@@ -16,7 +16,7 @@ stages:
       vmImage: 'windows-latest'
 
     variables:
-      solution: '2-WebApp-graphapi-on-behalf/*.sln'
+      solution: '2-WebApp-graph-user/2-1-Call-MSGraph/*.sln'
       buildPlatform: 'Any CPU'
       buildConfiguration: 'Release'
 
