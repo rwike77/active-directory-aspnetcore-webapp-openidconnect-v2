@@ -6,7 +6,7 @@ variables:
 - group: AzureResourcesVariableGroup
 
 trigger:
-- azure-pipelines-build
+- master
 stages:
 - stage: Build
   jobs: 
